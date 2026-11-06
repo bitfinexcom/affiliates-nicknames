@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/nicknames",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nickname Generation for Fun and Profit",
   "main": "index.js",
   "engines": {
