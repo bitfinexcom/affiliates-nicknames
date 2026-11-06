@@ -23,7 +23,9 @@ Runable example: [example.js](example.js)
 
 ## Test
 
+Requires Node.js 22 or newer.
+
 ```
-npm i -g mocha standard
-npm t
+npm install
+npm test
 ```
