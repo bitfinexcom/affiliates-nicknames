@@ -27,5 +27,6 @@ Requires Node.js 22 or newer.
 
 ```
 npm install
-npm test
+npm test        # lint + unit tests
+npm run lint:fix
 ```
