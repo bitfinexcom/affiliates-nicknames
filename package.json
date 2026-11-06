@@ -1,15 +1,25 @@
 {
   "name": "@bitfinex/nicknames",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Nickname Generation for Fun and Profit",
   "main": "index.js",
+  "engines": {
+    "node": ">=22.0"
+  },
   "scripts": {
-    "test": "standard"
+    "lint": "bfx-lint-js",
+    "lint:fix": "bfx-lint-js --fix",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "brittle-node tests/*.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitfinexcom/affiliates-nicknames.git"
   },
   "author": "Robert & Paolo <feedback-dev@bitfinex.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@bitfinex/lint-js": "^1.1.0",
+    "brittle": "^4.5.0"
+  }
 }
