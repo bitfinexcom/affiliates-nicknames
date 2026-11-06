@@ -7,8 +7,8 @@
     "node": ">=22.0"
   },
   "scripts": {
-    "lint": "bfx-lint-js .",
-    "lint:fix": "bfx-lint-js . --fix",
+    "lint": "bfx-lint-js",
+    "lint:fix": "bfx-lint-js --fix",
     "test": "npm run lint && npm run test:unit",
     "test:unit": "brittle-node tests/*.test.js"
   },
